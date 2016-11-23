@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trivia Game</title>
+	<link rel='stylesheet' type='text/css' href='assets/css/style.css'>
+
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+
+</head>
+<body>
+
+<h1 class = "brand">United States Geography Trivia Game</h1>
+
+<h2>Time Remaining: <span id="time"></span></h2>
+
+<form method="POST" name="myquiz" id="gradeQuiz">
+
+<div class="qheader">
+1) "In God We Trust" is the official motto of which US state?</div>
+<div class="qselections">
+	<input type="radio" value="a" name="question1">a) Idaho<br>
+	<input type="radio" value="b" name="question1">b) Hawaii<br>
+	<input type="radio" value="c" name="question1">c) Georgia<br>
+	<input type="radio" value="d" name="question1">d) Florida<br>
+</div>
+
+<br>
+
+<div class="qheader">
+2) Identify which of the following US States is the largest by area.</div>
+<div class="qselections">
+	<input type="radio" value="a" name="question2">a) Arizona<br>
+	<input type="radio" value="b" name="question2">b) Oregon<br>
+	<input type="radio" value="c" name="question2">c) New Mexico<br>
+	<input type="radio" value="d" name="question2">d) Nevada<br>
+</div>
+
+<br>
+
+<div class="qheader">
+3) In which US State is the "Tongass National Forest"?</div>
+<div class="qselections">
+	<input type="radio" value="a" name="question3">a) Arizona<br>
+	<input type="radio" value="b" name="question3">b) Alaska<br>
+	<input type="radio" value="c" name="question3">c) California<br>
+	<input type="radio" value="d" name="question3">d) Arkansas<br>
+</div>
+
+<br>
+
+<div class="qheader">
+4) With an elevation of 14,505 feet, "Mount Whitney" is the highest point in which US State?</div>
+<div class="qselections">
+	<input type="radio" value="a" name="question4">a) Colorado<br>
+	<input type="radio" value="b" name="question4">b) Delaware<br>
+	<input type="radio" value="c" name="question4">c) Connecticut<br>
+	<input type="radio" value="d" name="question4">d) California<br>
+</div>
+
+<br>
+
+<div class="qheader">
+5) The historic "Jackson Hole" lies in which National Park?</div>
+<div class="qselections">
+	<input type="radio" value="a" name="question5">a) Great Basin<br>
+	<input type="radio" value="b" name="question5">b) Guadalupe Mountains<br>
+	<input type="radio" value="c" name="question5">c) Great Smoky Mountains<br>
+	<input type="radio" value="d" name="question5">d) Grand Teton<br>
+</div>
+
+<br>
+
+<div class="qheader">
+6) Which Great Lake has a name that literally means "Great Water"?</div>
+<div class="qselections">
+	<input type="radio" value="a" name="question6">a) Ontario<br>
+	<input type="radio" value="b" name="question6">b) Erie<br>
+	<input type="radio" value="c" name="question6">c) Superior<br>
+	<input type="radio" value="d" name="question6">d) Michigan<br>
+</div>
+
+<br>
+
+<div class="qheader">
+7) Which state is known as the "Nutmeg State"?</div>
+<div class="qselections">
+	<input type="radio" value="a" name="question7">a) Delaware<br>
+	<input type="radio" value="b" name="question7">b) Arizona<br>
+	<input type="radio" value="c" name="question7">c) Texas<br>
+	<input type="radio" value="d" name="question7">d) Connecticut<br>
+</div>
+
+<br>
+
+<div class="qheader">
+8) Yellowstone National Park stretches across how many US States?</div>
+<div class="qselections">
+	<input type="radio" value="a" name="question8">a) 3<br>
+	<input type="radio" value="b" name="question8">b) 2<br>
+	<input type="radio" value="c" name="question8">c) 5<br>
+	<input type="radio" value="d" name="question8">d) 4<br>
+</div>
+
+<br>
+
+<div class="qheader">
+9) Which US state's flag consists of a red X on a white background?</div>
+<div class="qselections">
+	<input type="radio" value="a" name="question9">a) Arizona<br>
+	<input type="radio" value="b" name="question9">b) Arkansas<br>
+	<input type="radio" value="c" name="question9">c) Alabama<br>
+	<input type="radio" value="d" name="question9">d) Alaska<br>
+</div>
+
+<br>
+
+<div class="qheader">
+10) Which state has a 79 mile border with Kentucky and a 243 mile border with Ohio?</div>
+<div class="qselections">
+	<input type="radio" value="a" name="question10">a) Texas<br>
+	<input type="radio" value="b" name="question10">b) Wyoming<br>
+	<input type="radio" value="c" name="question10">c) Wisconsin<br>
+	<input type="radio" value="d" name="question10">d) West Virgina<br>
+
+</div>
+
+</form>
+
+<div class="gradeButtons" id="buttonsYo">
+	<input type="button" value="Click When Complete" name="B1" onClick="gradeit()">
+	<input type="button" value="Click to Clear Answers" name="B2" onClick="document.myquiz.reset()">
+</div>
+
+<script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
+<script src='assets/javascript/app.js'></script>
+</body>
+</html>

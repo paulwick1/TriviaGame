@@ -1,0 +1,59 @@
+body {
+    background-image: url("../images/unitedstates.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 400px 300px;
+
+}
+
+h1 {
+    text-align: center;
+    margin: 3px;
+    padding: 10px;
+    display: block;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    letter-spacing: -1px;
+    color: #fff;
+    line-height: 24px;
+    background: black;
+
+}
+
+h2 {
+    text-align: center;
+    color: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    font-size: 35px;
+    padding-top: 5px;
+    text-shadow: 0.1em 0.1em 0.2em black
+}
+
+.qheader{
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    font-size: 15px;
+    padding-top: 5px;
+    font-weight: bold;
+    text-shadow: 0.1em 0.1em 0.2em black;
+
+}
+
+.qselections {
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    font-size: 12px;
+    padding-top: 5px;
+    width: 200px;
+    text-shadow: 0.1em 0.1em 0.2em black
+
+}
+
+.gradeButtons {
+    text-align: center;
+    font-size: 10px;
+    margin: 10px;
+}
